@@ -1,0 +1,263 @@
+Arguments:
+     f : 
+     comment : test_notebook
+     dataset : VisualGenome
+     dataset_path : /DATA/dataset/Visual_Genome/VG_100K/
+     model : tirg
+     embed_dim : 512
+     learning_rate : 0.01
+     learning_rate_decay_frequency : 9999999
+     batch_size : 32
+     weight_decay : 1e-06
+     num_iters : 210000
+     loss : batch_based_classification
+     loader_num_workers : 4
+Log files saved to runs/Jan03_12-54-04_BOSS8-OStest_notebook
+Reading dataset  VisualGenome
+trainset size: 178198
+testset size: 178198
+Creating model and optimizer for tirg
+Begin training
+It 0 epoch 0 Elapsed time 0.0 test_notebook
+It 5568 epoch 1 Elapsed time 2798.1213 test_notebook
+    Loss batch_based_classification 1.1722
+    Loss total training loss 1.1722
+     train recall_top1_correct_composition 0.0008
+     train recall_top5_correct_composition 0.0036
+     train recall_top10_correct_composition 0.0062
+     train recall_top50_correct_composition 0.0256
+     train recall_top100_correct_composition 0.0473
+     test recall_top1_correct_composition 0.0015
+     test recall_top5_correct_composition 0.0039
+     test recall_top10_correct_composition 0.0077
+     test recall_top50_correct_composition 0.0259
+     test recall_top100_correct_composition 0.0459
+It 11136 epoch 2 Elapsed time 1196.8571 test_notebook
+    Loss batch_based_classification 0.9349
+    Loss total training loss 0.9349
+It 16704 epoch 3 Elapsed time 789.4189 test_notebook
+    Loss batch_based_classification 0.8387
+    Loss total training loss 0.8387
+It 22272 epoch 4 Elapsed time 787.6819 test_notebook
+    Loss batch_based_classification 0.7772
+    Loss total training loss 0.7772
+     train recall_top1_correct_composition 0.0011
+     train recall_top5_correct_composition 0.0044
+     train recall_top10_correct_composition 0.0071
+     train recall_top50_correct_composition 0.0319
+     train recall_top100_correct_composition 0.0542
+     test recall_top1_correct_composition 0.001
+     test recall_top5_correct_composition 0.0039
+     test recall_top10_correct_composition 0.0078
+     test recall_top50_correct_composition 0.0313
+     test recall_top100_correct_composition 0.0574
+It 27840 epoch 5 Elapsed time 1068.0959 test_notebook
+    Loss batch_based_classification 0.7294
+    Loss total training loss 0.7294
+It 33408 epoch 6 Elapsed time 794.53 test_notebook
+    Loss batch_based_classification 0.689
+    Loss total training loss 0.689
+It 38976 epoch 7 Elapsed time 792.6537 test_notebook
+    Loss batch_based_classification 0.656
+    Loss total training loss 0.656
+     train recall_top1_correct_composition 0.0009
+     train recall_top5_correct_composition 0.0038
+     train recall_top10_correct_composition 0.008
+     train recall_top50_correct_composition 0.034
+     train recall_top100_correct_composition 0.0592
+     test recall_top1_correct_composition 0.0009
+     test recall_top5_correct_composition 0.0042
+     test recall_top10_correct_composition 0.0068
+     test recall_top50_correct_composition 0.0332
+     test recall_top100_correct_composition 0.0598
+It 44544 epoch 8 Elapsed time 1073.4402 test_notebook
+    Loss batch_based_classification 0.6307
+    Loss total training loss 0.6307
+It 50112 epoch 9 Elapsed time 793.339 test_notebook
+    Loss batch_based_classification 0.6052
+    Loss total training loss 0.6052
+It 55680 epoch 10 Elapsed time 792.7818 test_notebook
+    Loss batch_based_classification 0.5814
+    Loss total training loss 0.5814
+     train recall_top1_correct_composition 0.001
+     train recall_top5_correct_composition 0.004
+     train recall_top10_correct_composition 0.0079
+     train recall_top50_correct_composition 0.0365
+     train recall_top100_correct_composition 0.0643
+     test recall_top1_correct_composition 0.0012
+     test recall_top5_correct_composition 0.0041
+     test recall_top10_correct_composition 0.0077
+     test recall_top50_correct_composition 0.0349
+     test recall_top100_correct_composition 0.0663
+It 61248 epoch 11 Elapsed time 1079.0443 test_notebook
+    Loss batch_based_classification 0.5586
+    Loss total training loss 0.5586
+It 66816 epoch 12 Elapsed time 792.8643 test_notebook
+    Loss batch_based_classification 0.5421
+    Loss total training loss 0.5421
+It 72384 epoch 13 Elapsed time 791.7573 test_notebook
+    Loss batch_based_classification 0.5221
+    Loss total training loss 0.5221
+     train recall_top1_correct_composition 0.0011
+     train recall_top5_correct_composition 0.0052
+     train recall_top10_correct_composition 0.0076
+     train recall_top50_correct_composition 0.0378
+     train recall_top100_correct_composition 0.0681
+     test recall_top1_correct_composition 0.0008
+     test recall_top5_correct_composition 0.0046
+     test recall_top10_correct_composition 0.0087
+     test recall_top50_correct_composition 0.0374
+     test recall_top100_correct_composition 0.0674
+It 77952 epoch 14 Elapsed time 1072.1959 test_notebook
+    Loss batch_based_classification 0.5071
+    Loss total training loss 0.5071
+It 83520 epoch 15 Elapsed time 791.4201 test_notebook
+    Loss batch_based_classification 0.4908
+    Loss total training loss 0.4908
+It 89088 epoch 16 Elapsed time 791.4372 test_notebook
+    Loss batch_based_classification 0.477
+    Loss total training loss 0.477
+     train recall_top1_correct_composition 0.001
+     train recall_top5_correct_composition 0.0045
+     train recall_top10_correct_composition 0.0088
+     train recall_top50_correct_composition 0.0367
+     train recall_top100_correct_composition 0.0706
+     test recall_top1_correct_composition 0.0013
+     test recall_top5_correct_composition 0.0042
+     test recall_top10_correct_composition 0.0084
+     test recall_top50_correct_composition 0.036
+     test recall_top100_correct_composition 0.0708
+It 94656 epoch 17 Elapsed time 1074.1565 test_notebook
+    Loss batch_based_classification 0.4653
+    Loss total training loss 0.4653
+It 100224 epoch 18 Elapsed time 794.9839 test_notebook
+    Loss batch_based_classification 0.4514
+    Loss total training loss 0.4514
+It 105792 epoch 19 Elapsed time 801.8548 test_notebook
+    Loss batch_based_classification 0.4388
+    Loss total training loss 0.4388
+     train recall_top1_correct_composition 0.0016
+     train recall_top5_correct_composition 0.0043
+     train recall_top10_correct_composition 0.0095
+     train recall_top50_correct_composition 0.0379
+     train recall_top100_correct_composition 0.0714
+     test recall_top1_correct_composition 0.0014
+     test recall_top5_correct_composition 0.0052
+     test recall_top10_correct_composition 0.0095
+     test recall_top50_correct_composition 0.0384
+     test recall_top100_correct_composition 0.0726
+It 111360 epoch 20 Elapsed time 1076.4759 test_notebook
+    Loss batch_based_classification 0.4272
+    Loss total training loss 0.4272
+It 116928 epoch 21 Elapsed time 806.5847 test_notebook
+    Loss batch_based_classification 0.4178
+    Loss total training loss 0.4178
+It 122496 epoch 22 Elapsed time 803.2476 test_notebook
+    Loss batch_based_classification 0.4131
+    Loss total training loss 0.4131
+     train recall_top1_correct_composition 0.0018
+     train recall_top5_correct_composition 0.0058
+     train recall_top10_correct_composition 0.0104
+     train recall_top50_correct_composition 0.0435
+     train recall_top100_correct_composition 0.0792
+     test recall_top1_correct_composition 0.002
+     test recall_top5_correct_composition 0.0057
+     test recall_top10_correct_composition 0.0097
+     test recall_top50_correct_composition 0.043
+     test recall_top100_correct_composition 0.0779
+It 128064 epoch 23 Elapsed time 1091.2994 test_notebook
+    Loss batch_based_classification 0.3997
+    Loss total training loss 0.3997
+It 133632 epoch 24 Elapsed time 802.5822 test_notebook
+    Loss batch_based_classification 0.3916
+    Loss total training loss 0.3916
+It 139200 epoch 25 Elapsed time 797.8156 test_notebook
+    Loss batch_based_classification 0.3819
+    Loss total training loss 0.3819
+     train recall_top1_correct_composition 0.0018
+     train recall_top5_correct_composition 0.0066
+     train recall_top10_correct_composition 0.0113
+     train recall_top50_correct_composition 0.0422
+     train recall_top100_correct_composition 0.0753
+     test recall_top1_correct_composition 0.0015
+     test recall_top5_correct_composition 0.0057
+     test recall_top10_correct_composition 0.0104
+     test recall_top50_correct_composition 0.0417
+     test recall_top100_correct_composition 0.0758
+It 144768 epoch 26 Elapsed time 1089.979 test_notebook
+    Loss batch_based_classification 0.3769
+    Loss total training loss 0.3769
+It 150336 epoch 27 Elapsed time 805.7814 test_notebook
+    Loss batch_based_classification 0.3691
+    Loss total training loss 0.3691
+It 155904 epoch 28 Elapsed time 800.4784 test_notebook
+    Loss batch_based_classification 0.3623
+    Loss total training loss 0.3623
+     train recall_top1_correct_composition 0.002
+     train recall_top5_correct_composition 0.0074
+     train recall_top10_correct_composition 0.0137
+     train recall_top50_correct_composition 0.048
+     train recall_top100_correct_composition 0.0832
+     test recall_top1_correct_composition 0.0022
+     test recall_top5_correct_composition 0.0072
+     test recall_top10_correct_composition 0.0138
+     test recall_top50_correct_composition 0.0464
+     test recall_top100_correct_composition 0.0818
+It 161472 epoch 29 Elapsed time 1062.9359 test_notebook
+    Loss batch_based_classification 0.3579
+    Loss total training loss 0.3579
+It 167040 epoch 30 Elapsed time 795.4159 test_notebook
+    Loss batch_based_classification 0.3514
+    Loss total training loss 0.3514
+It 172608 epoch 31 Elapsed time 795.8748 test_notebook
+    Loss batch_based_classification 0.348
+    Loss total training loss 0.348
+     train recall_top1_correct_composition 0.0032
+     train recall_top5_correct_composition 0.007
+     train recall_top10_correct_composition 0.0124
+     train recall_top50_correct_composition 0.0466
+     train recall_top100_correct_composition 0.0816
+     test recall_top1_correct_composition 0.0022
+     test recall_top5_correct_composition 0.0067
+     test recall_top10_correct_composition 0.0123
+     test recall_top50_correct_composition 0.0481
+     test recall_top100_correct_composition 0.0816
+It 178176 epoch 32 Elapsed time 1086.6016 test_notebook
+    Loss batch_based_classification 0.3422
+    Loss total training loss 0.3422
+It 183744 epoch 33 Elapsed time 798.3005 test_notebook
+    Loss batch_based_classification 0.3349
+    Loss total training loss 0.3349
+It 189312 epoch 34 Elapsed time 800.2967 test_notebook
+    Loss batch_based_classification 0.3308
+    Loss total training loss 0.3308
+     train recall_top1_correct_composition 0.0025
+     train recall_top5_correct_composition 0.0071
+     train recall_top10_correct_composition 0.0122
+     train recall_top50_correct_composition 0.0483
+     train recall_top100_correct_composition 0.084
+     test recall_top1_correct_composition 0.0023
+     test recall_top5_correct_composition 0.0079
+     test recall_top10_correct_composition 0.0136
+     test recall_top50_correct_composition 0.0488
+     test recall_top100_correct_composition 0.0855
+It 194880 epoch 35 Elapsed time 1085.4199 test_notebook
+    Loss batch_based_classification 0.3305
+    Loss total training loss 0.3305
+It 200448 epoch 36 Elapsed time 804.181 test_notebook
+    Loss batch_based_classification 0.3216
+    Loss total training loss 0.3216
+It 206016 epoch 37 Elapsed time 806.8326 test_notebook
+    Loss batch_based_classification 0.317
+    Loss total training loss 0.317
+     train recall_top1_correct_composition 0.002
+     train recall_top5_correct_composition 0.0063
+     train recall_top10_correct_composition 0.0125
+     train recall_top50_correct_composition 0.048
+     train recall_top100_correct_composition 0.085
+     test recall_top1_correct_composition 0.0015
+     test recall_top5_correct_composition 0.0062
+     test recall_top10_correct_composition 0.0122
+     test recall_top50_correct_composition 0.0479
+     test recall_top100_correct_composition 0.0841
+Finished training
